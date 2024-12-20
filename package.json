@@ -1,0 +1,34 @@
+{
+  "name": "darkest-linter-for-darkest-dungeon",
+  "displayName": "darkest linter for darkest dungeon",
+  "description": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "darkest",
+        "aliases": [
+          "darkest",
+          "darkest"
+        ],
+        "extensions": [
+          ".darkest"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "darkest",
+        "scopeName": "source.darkest",
+        "path": "./syntaxes/darkest.tmLanguage.json"
+      }
+    ]
+  }
+}
